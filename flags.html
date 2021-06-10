@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Neighbours</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="countries.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="game-panel">
+		<div id="sidebar">
+			<div id="game-title">
+				Find the Neighbours
+			</div>
+			<br>
+			<div id="rounds">
+				Round: <span id="round-number"></span>
+			</div>
+			<div id="score">
+				Score: <span id="score-number"></span>
+			</div>
+			<div id="buttons-container">
+			<button id="btn-next-round">Next Country</button>
+			<button id="btn-new-game">New Game</button>
+			</div>
+		</div>
+		<div id="my-country">
+			<div id="my-country-flag"></div>
+			<div id="my-country-name"></div>
+		</div>
+		<progress id="progress"></progress>
+		<div id="neighbours-panel">
+			<div id="next-round-panel"></div>
+		</div>
+    </div>
+</body>
+</html>
